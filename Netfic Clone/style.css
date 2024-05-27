@@ -1,0 +1,216 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+body{
+    background-color: rgb(31, 28, 28);
+}
+
+.shadow{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 200px;
+}
+
+.home{
+    /* background-image: url("./bgimg.jpg"); */
+    background: 
+    radial-gradient(circle, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0.5) 100%),
+    url("./bgimg.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.logo{
+    width: 180px;
+    height: 60px;
+    fill: red;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.buttons {
+    height: 100px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.signin {
+    color: white;
+    padding: 10px ;
+    border-radius: 6px;
+    background-color: red;
+    border: none;
+    width: 90px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+.language {
+    color: white;
+    padding: 8px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: solid white 2px;
+    font-size: 15px;
+    font-weight: 700;
+    width: 110px;
+    height: 35px;
+}
+
+.content{
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+.content2{
+    color: white;
+    font-size: 1.7rem;
+}
+
+.content3 {
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+.get{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 8px;   
+    background-color: red;
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search{
+    width: 450px;
+    height: 60px;
+    border-radius: 5px;
+    border: solid red 1px;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.mail{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.section2{
+    height: 650px;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.text{
+    font-size: 55px;
+}
+
+.text2{
+    margin-top: 10px;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.container2 div{
+    height: 350px;
+    width: 600px;
+}
+
+
+.container2{
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 100px; */
+}
+
+.freq {
+    font-size: 55px;
+    font-weight: 900;
+    color: white;
+}
+
+.section3{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+.section3 div{
+    padding: 20px;
+    background-color:rgb(59, 55, 55);
+    margin: 10px;
+    
+}
+
+.section3 div:hover{
+    cursor: pointer;
+    background-color:rgb(69, 59, 59);
+}
+
+
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.lasttext{
+    margin-top: 30px;
+    color: white;
+    font-size: 25px;
+    
+}
+
+.footer{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    margin-top: 7px;
+}
+.footer div h5{
+    padding: 10px;
+    color:white;
+}
+
+.footer div:hover{
+    cursor: pointer;
+    
+}
+
+
